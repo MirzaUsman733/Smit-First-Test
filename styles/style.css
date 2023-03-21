@@ -1,0 +1,77 @@
+*{
+font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-color: rgba(0, 0, 255, 0.336);
+}
+#center{
+  margin: auto;
+  margin-top: 100px;
+  height: 100%;
+  width: 45%;
+  /* background-color: black; */
+  color: white;
+  border-radius: 5px;
+}
+#sme{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+#txt{
+  padding-left: 20px;
+  width: 100%;
+  height: 40px;
+  background-color: rgba(87, 87, 156, 0.295);
+  border: none;
+  border-radius: 5px;
+}
+#email{
+  /* margin: 70px 50px 50px 50px; */
+  padding-left: 20px;
+width: 100%;
+height: 40px;
+background-color: rgba(87, 87, 156, 0.295);
+border: none;
+border-radius: 5px;
+}
+#password{
+  /* margin: 0px 50px 50px 50px; */
+  padding-left: 20px;
+width: 100%;
+height: 40px;
+background-color: rgba(87, 87, 156, 0.295);
+border: none;
+border-radius: 5px;
+}
+.svg{
+  margin-left: -25px;
+}
+.svg{
+  margin-left: -25px;
+}
+.forget{
+  margin-top: 30px;
+  opacity: 0.3;
+}
+#anchor{
+  text-decoration: none;
+  color: white;
+}
+#newPage{
+  display: none;
+}
+#input{
+  background-color: rgba(49, 73, 211, 0.137);
+  border: none;
+  border-radius: 10px;
+}
+.spn{
+  text-align: center;
+}
+.btn{
+  border-radius: 10px;
+
+}

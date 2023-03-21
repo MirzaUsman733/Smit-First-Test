@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="title">Admin Login</title>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+  <div id="center" class="bg-dark text-white">
+    <div id="sme">
+  <header>
+    <h1 class="text-center text-uppercase mt-5">Admin login</h1>
+    <input type="text" class="mt-4" name="" placeholder="Full Name" id="txt">
+    <input type="email" class="my-4" name="" placeholder="Email" id="email"><svg class="svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-person" viewBox="0 0 16 16">
+      <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+    </svg>
+    <input type="password" class="input" placeholder="Password" name="" id="password"><svg class="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock" viewBox="0 0 16 16">
+      <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/>
+    </svg>
+    <p class="text-end forget">Forget Password</p>
+    <button class="btn btn-primary fs-4 mb-5 px-4" onclick="login()">Login</button>
+  </header>
+  <main></main>
+  <footer></footer>
+</div>
+</div>
+<div class="container my-5 spn" id="newPage">
+  <div class="my-5">
+  <span class="d-inlineblock fs-1 text-white">Your Name is : </span>
+  <span class="d-inlineblock fs-1 text-white" id="name"></span>
+</div>
+  <form action="">
+    <input type="text" placeholder="Type your text here" class="input py-1" id="input">
+    <input type="button" value="Clear" class="px-2 btn btn-primary" onclick="clear()" id="clear">
+</form>
+<div id="add" class="col btn btn-primary my-5" onclick="add()">Add Your City In List</div>
+<div id="print" class="col btn btn-primary me-1" onclick="print()">Print All Cities</div>
+
+<div class="text-center" id="result">
+                            
+</div>
+</div>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <script src="./scripts/script.js"></script>
+</body>
+</html>
